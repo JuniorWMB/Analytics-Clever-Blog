@@ -38,9 +38,9 @@ const NavBar = ({ postsResponse }) => {
   return (
     <div className="md:flex md:items-center b ">
       <div className="flex flex-row items-center justify-between h-24 md:w-full p-2">
-        <a href="/">
+        <Link href="/">
           <Logo />
-        </a>
+        </Link>
         <div className=" hidden md:flex w-[40%] ">
           <ul className="flex  w-full justify-between items-end">
             {navigation.map((nav, i) => (
