@@ -1,0 +1,6 @@
+.post h1{
+    @apply text-red-500 text-2xl my-2 font-bold font-Montserrat
+  }
+.post p{
+    @apply text-gray-800 text-lg my-2  
+  }
