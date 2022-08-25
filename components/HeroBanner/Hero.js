@@ -7,7 +7,7 @@ const Hero = ({ picture }) => {
   return (
     <div className="h-72 md:h-80 lg:h-[600px] w-full relative">
       <Image
-        src={picture ? picture : imgUrl}
+        src={!picture === null ? picture : imgUrl}
         alt="Hero Banner"
         layout="fill"
         objectFit="cover"
