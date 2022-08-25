@@ -16,7 +16,6 @@ export default function Home({ postsResponse }) {
 
   useEffect(() => {
     setPostModal(postsResponse);
-    console.log("TTT", postsResponse);
   }, []);
 
   useEffect(() => {
@@ -108,7 +107,7 @@ export default function Home({ postsResponse }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const postsResponse = (await getPosts()) || [];
 
   return {
