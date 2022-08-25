@@ -21,6 +21,38 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
+          {/* Twitter */}
+          <meta
+            name="twitter:card"
+            content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+            key="twcard"
+          />
+          {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
+
+          {/* Open Graph */}
+          <meta
+            property="og:url"
+            content="https://analyticsclever.com"
+            key="ogurl"
+          />
+          <meta property="og:image" content={logoUrl} key="ogimage" />
+          <meta
+            property="og:site_name"
+            content="Analytics Clever Blog"
+            key="ogsitename"
+          />
+          <meta
+            property="og:title"
+            content="Analytics Clever | Accueil"
+            key="ogtitle"
+          />
+          <meta
+            property="og:description"
+            content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+            key="ogdesc"
+          />
+
+          {/* 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@YOUR_TWITTER_USERNAME" />
           <meta
@@ -41,7 +73,6 @@ export default class MyDocument extends Document {
             content="nekrjbekjrbvlekjrbvlekjbvlkejbrvlikejbvilerkbjvlekrbverkb"
           />
 
-          {/* Open Graph */}
           <meta
             property="og:url"
             content={`https://analyticsclever.com`}
@@ -62,7 +93,7 @@ export default class MyDocument extends Document {
             property="og:description"
             content="Blog sur mon evolution en tant que Tracking specialist chez 55"
             key="ogdesc"
-          />
+          /> */}
         </Head>
         <body>
           <Main />
