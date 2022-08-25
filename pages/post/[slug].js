@@ -19,12 +19,12 @@ const PostDetails = ({ post }) => {
 
 export default PostDetails;
 
-export async function getStaticProps({ params }) {
-  const data = await getPostDetails(params.slug);
-  return {
-    props: { post: data },
-  };
-}
+// export async function getServerSideProps({ params }) {
+//   const data = await getPostDetails(params.slug);
+//   return {
+//     props: { post: data },
+//   };
+// }
 
 export async function getServerSideProps() {
   const posts = await getPosts();
