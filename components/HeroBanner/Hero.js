@@ -12,6 +12,7 @@ const Hero = ({ picture }) => {
         layout="fill"
         objectFit="cover"
         objectPosition="center"
+        priority="true"
         // placeholder="blur"
         className=" lg:brightness-50"
       />
