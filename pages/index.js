@@ -107,10 +107,17 @@ export default function Home({ postsResponse }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const postsResponse = (await getPosts()) || [];
 
   return {
     props: { postsResponse },
   };
 }
+// export async function getStaticProps() {
+//   const postsResponse = (await getPosts()) || [];
+
+//   return {
+//     props: { postsResponse },
+//   };
+// }
