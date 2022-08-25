@@ -59,7 +59,7 @@ const Post = ({ post }) => {
           key="ogdesc"
         />
       </Head>
-      <Hero picture={post.featuredPicture.url} />
+      {/* <Hero picture={post.featuredPicture.url} /> */}
       <div className=" lg:flex justify-center">
         <div className="flex flex-col items-center mt-10 lg:absolute z-20 top-[20em]  lg:w-[80%] lg:items-start">
           <p className="text-gray-600 lg:text-white dark:text-white">

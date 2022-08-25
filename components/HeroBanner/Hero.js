@@ -6,7 +6,7 @@ const Hero = ({ picture }) => {
     "https://res.cloudinary.com/juniorwembopa243/image/upload/v1660687286/lukas-blazek-mcSDtbWXUZU-unsplash_vg2h0a.jpg";
   return (
     <div className="h-72 md:h-80 lg:h-[600px] w-full relative">
-      {/* <Image
+      <Image
         src={picture ? picture : imgUrl}
         alt="Hero Banner"
         layout="fill"
@@ -14,7 +14,7 @@ const Hero = ({ picture }) => {
         objectPosition="center"
         // placeholder="blur"
         className=" lg:brightness-50"
-      /> */}
+      />
     </div>
   );
 };
