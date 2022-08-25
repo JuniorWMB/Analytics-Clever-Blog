@@ -59,7 +59,7 @@ export default function Home({ postsResponse }) {
           {/* Open Graph */}
           <meta
             property="og:url"
-            content={`https://analytics-clever-blog.com/`}
+            content={`https://analyticsclever.com`}
             key="ogurl"
           />
           <meta
@@ -96,7 +96,6 @@ export default function Home({ postsResponse }) {
             />
           ))}
         </div>
-        {/* <div className="bg-red-500 h-36" ref={myRef}></div> */}
       </main>
       {showTopScroll && (
         <div className=" flex justify-end sticky z-50 right-3 bottom-7 pr-5">
