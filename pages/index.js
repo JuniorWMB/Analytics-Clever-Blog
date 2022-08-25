@@ -62,7 +62,11 @@ export default function Home({ postsResponse }) {
             content={`https://analyticsclever.com`}
             key="ogurl"
           />
-          <meta property="og:image" content={logoUrl} key="ogimage" />
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1661453244/justin-morgan-_Lnid7JAWFQ-unsplash_uffixe.jpg"
+            key="ogimage"
+          />
           <meta
             property="og:site_name"
             content="Analytics Clever"

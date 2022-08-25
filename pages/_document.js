@@ -39,7 +39,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1660688448/ga4_igliir.jpg"
+            content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1661453244/justin-morgan-_Lnid7JAWFQ-unsplash_uffixe.jpg"
             key="ogimage"
           />
           <meta
