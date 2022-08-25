@@ -46,7 +46,11 @@ function MyApp({ Component, pageProps }) {
           content="https://analyticsclever.com"
           key="ogurl"
         />
-        <meta property="og:image" content={logoUrl} key="ogimage" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1660688448/ga4_igliir.jpg"
+          key="ogimage"
+        />
         <meta
           property="og:site_name"
           content="Analytics Clever Blog"
