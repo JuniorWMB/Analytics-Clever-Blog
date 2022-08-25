@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
           {/* Open Graph */}
           <meta
             property="og:url"
-            content="https://analyticsclever.com"
+            content="https://analytics-clever-blog.com/"
             key="ogurl"
           />
           <meta

@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
         {/* Open Graph */}
         <meta
           property="og:url"
-          content="https://analyticsclever.com"
+          content="https://analytics-clever-blog.com"
           key="ogurl"
         />
         <meta
