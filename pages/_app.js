@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:title"
-          content="Analytics Clever | Accueil"
+          content="Analytics Clever Blog"
           key="ogtitle"
         />
         <meta

@@ -49,7 +49,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:title"
-            content="Analytics Clever | Accueil"
+            content="Analytics Clever Blog"
             key="ogtitle"
           />
           <meta
