@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import * as timeago from "timeago.js";
@@ -7,11 +7,26 @@ import fr from "timeago.js/lib/lang/fr";
 
 timeago.register("fr", fr);
 
-const Posts = ({ post, key }) => {
+const Posts = ({ post, key, isLast }) => {
+  // const myRef = useRef();
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(([entries]) => {
+  //     if (isLast && entries.isIntersecting) {
+  //       console.log("Lst one is in viewport");
+  //     }
+  //   });
+  //   observer.observe(myRef.current);
+  // }, [myRef]);
+
   const ga4Img =
     "https://res.cloudinary.com/juniorwembopa243/image/upload/v1660688758/google-analytics-nameG-1920_qfl2c7.png";
   return (
-    <div className="px-4 py-8 group" key={key}>
+    <div
+      className="px-4 py-8 group"
+      key={key}
+      // ref={myRef}
+    >
       <div className="h-80 w-full relative ">
         <Link href={`/post/${post.slug}`}>
           <Image

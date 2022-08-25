@@ -65,9 +65,9 @@ const Post = ({ post }) => {
           <p className="text-gray-600 lg:text-white dark:text-white">
             <TimeAgo datetime={post.createdAt} locale="fr" />{" "}
           </p>
-          <h3 className="text-2xl font-extrabold font-Montserrat lg:text-white">
+          <h1 className="text-2xl font-extrabold font-Montserrat lg:text-white">
             {post.title}
-          </h3>
+          </h1>
           <div className="px-4 mt-10 lg:bg-white lg:px-10 py-20 dark:bg-black">
             <p
               // className=" text-justify"

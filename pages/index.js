@@ -84,10 +84,15 @@ export default function Home({ postsResponse }) {
       <main className="">
         <Hero />
         <div className=" flex flex-col sm:grid grid-cols-2 gap-4 xl:md:grid-cols-4 ">
-          {postsResponse.map((post) => (
-            <Posts post={post.node} key={post.title} />
+          {postsResponse.map((post, i) => (
+            <Posts
+              post={post.node}
+              key={post.title}
+              isLast={i === postsResponse.length - 1}
+            />
           ))}
         </div>
+        {/* <div className="bg-red-500 h-36" ref={myRef}></div> */}
       </main>
       {showTopScroll && (
         <div className=" flex justify-end sticky z-50 right-3 bottom-7 pr-5">

@@ -1,5 +1,6 @@
 import NavBar from "../components/Header/NavBar";
 import Head from "next/head";
+import Script from "next/script";
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
 import { Global } from "../Context/context";
@@ -27,6 +28,19 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+      />
+      <Script id="ga-analytics">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+          `}
+      </Script>
       <ThemeProvider enableSystem={true} attribute="class">
         <Global>
           <NavBar />

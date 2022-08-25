@@ -9,13 +9,13 @@ const Logo = () => {
     <>
       {" "}
       <Link href="/">
-        <div className=" w-36 h-36 relative">
+        <div className=" w-36 h-36 relative ">
           <Image
             src={logoUrl}
             alt="Logo"
             layout="fill"
             objectFit="cover"
-            className="h-full"
+            className="h-full  "
           />
         </div>
         {/* <h1 className="flex items-end text-2xl font-bold dark:text-white cursor-pointer">
