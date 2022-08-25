@@ -33,13 +33,13 @@ export async function getStaticProps({ params }) {
 //   };
 // }
 
-export async function getServerSideProps() {
-  const posts = await getPosts();
-  return {
-    paths: posts.map(({ node: { slug } }) => ({ params: { slug } })),
-    fallback: true,
-  };
-}
+// export async function getServerSideProps() {
+//   const posts = await getPosts();
+//   return {
+//     paths: posts.map(({ node: { slug } }) => ({ params: { slug } })),
+//     fallback: true,
+//   };
+// }
 // export async function getStaticPaths() {
 //   const posts = await getPosts();
 //   return {
