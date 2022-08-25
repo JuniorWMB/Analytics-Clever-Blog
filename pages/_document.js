@@ -21,6 +21,18 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@YOUR_TWITTER_USERNAME" />
+          <meta
+            name="Analytics Clever | Accueil"
+            content="TITLE_FOR_YOUR_PAGE"
+          />
+          <meta
+            name="twitter:description"
+            content="Blog sur mon evolution en tant que Tracking specialist chez 55"
+          />
+          <meta name="twitter:image" content={logoUrl} />
+
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
           <meta name="twitter:card" content="summary" key="twcard" />
@@ -43,7 +55,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:title"
-            content="Analytics Clever | Accueil "
+            content="Analytics Clever | Accueil"
             key="ogtitle"
           />
           <meta
