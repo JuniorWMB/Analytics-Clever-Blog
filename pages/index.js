@@ -16,6 +16,7 @@ export default function Home({ postsResponse }) {
 
   useEffect(() => {
     setPostModal(postsResponse);
+    console.log("TTT", postsResponse);
   }, []);
 
   useEffect(() => {
