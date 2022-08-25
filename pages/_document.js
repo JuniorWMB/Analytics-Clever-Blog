@@ -22,6 +22,8 @@ export default class MyDocument extends Document {
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
           {/* Twitter */}
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="theme-color" content="#ffffff" />
           <meta
             name="twitter:card"
             content="Blog sur mon évolution en tant que Tracking spécialist chez 55"

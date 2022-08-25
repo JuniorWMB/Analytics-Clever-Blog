@@ -27,6 +27,39 @@ function MyApp({ Component, pageProps }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+
+        {/* Twitter */}
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="twitter:card"
+          content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+          key="twcard"
+        />
+        {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
+
+        {/* Open Graph */}
+        <meta
+          property="og:url"
+          content="https://analyticsclever.com"
+          key="ogurl"
+        />
+        <meta property="og:image" content={logoUrl} key="ogimage" />
+        <meta
+          property="og:site_name"
+          content="Analytics Clever Blog"
+          key="ogsitename"
+        />
+        <meta
+          property="og:title"
+          content="Analytics Clever | Accueil"
+          key="ogtitle"
+        />
+        <meta
+          property="og:description"
+          content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+          key="ogdesc"
+        />
       </Head>
       <Script
         strategy="lazyOnload"
