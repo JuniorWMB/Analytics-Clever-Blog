@@ -16,6 +16,7 @@ export default function Home({ postsResponse }) {
 
   useEffect(() => {
     setPostModal(postsResponse);
+    console.log(postsResponse);
   }, []);
 
   useEffect(() => {
@@ -86,7 +87,7 @@ export default function Home({ postsResponse }) {
       </Head>
 
       <main className="">
-        <Hero />
+        {/* <Hero />
         <div className=" flex flex-col sm:grid grid-cols-2 gap-4 xl:md:grid-cols-4 ">
           {postsResponse.map((post, i) => (
             <Posts
@@ -95,7 +96,7 @@ export default function Home({ postsResponse }) {
               isLast={i === postsResponse.length - 1}
             />
           ))}
-        </div>
+        </div> */}
       </main>
       {showTopScroll && (
         <div className=" flex justify-end sticky z-50 right-3 bottom-7 pr-5">
