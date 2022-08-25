@@ -30,17 +30,49 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
 
+        <title>Analytics Clever Blog</title>
+        <meta
+          name="description"
+          content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+        />
+
+        <meta property="og:url" content="https://analytics-clever-blog.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Analytics Clever Blog" />
+        <meta
+          property="og:description"
+          content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1661453244/justin-morgan-_Lnid7JAWFQ-unsplash_uffixe.jpg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="analytics-clever-blog.com" />
+        <meta
+          property="twitter:url"
+          content="https://analytics-clever-blog.com"
+        />
+        <meta name="twitter:title" content="Analytics Clever Blog" />
+        <meta
+          name="twitter:description"
+          content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1661453244/justin-morgan-_Lnid7JAWFQ-unsplash_uffixe.jpg"
+        />
+
         {/* Twitter */}
-        <meta name="msapplication-TileColor" content="#da532c" />
+        {/* <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="twitter:card"
           content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
           key="twcard"
         />
-        {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
-
-        {/* Open Graph */}
+      
         <meta
           property="og:url"
           content="https://analytics-clever-blog.com"
@@ -65,7 +97,7 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
           key="ogdesc"
-        />
+        /> */}
       </Head>
       <Script
         strategy="lazyOnload"

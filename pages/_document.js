@@ -21,41 +21,38 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
-          {/* Twitter */}
-          <meta name="msapplication-TileColor" content="#da532c" />
-          <meta name="theme-color" content="#ffffff" />
+          <title>Analytics Clever Blog</title>
           <meta
-            name="twitter:card"
+            name="description"
             content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
-            key="twcard"
           />
-          {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
 
-          {/* Open Graph */}
+          <meta property="og:url" content="https://analytics-clever-blog.com" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Analytics Clever Blog" />
           <meta
-            property="og:url"
-            content="https://analytics-clever-blog.com/"
-            key="ogurl"
+            property="og:description"
+            content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
           />
           <meta
             property="og:image"
             content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1661453244/justin-morgan-_Lnid7JAWFQ-unsplash_uffixe.jpg"
-            key="ogimage"
           />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="analytics-clever-blog.com" />
           <meta
-            property="og:site_name"
-            content="Analytics Clever Blog"
-            key="ogsitename"
+            property="twitter:url"
+            content="https://analytics-clever-blog.com"
           />
+          <meta name="twitter:title" content="Analytics Clever Blog" />
           <meta
-            property="og:title"
-            content="Analytics Clever Blog"
-            key="ogtitle"
-          />
-          <meta
-            property="og:description"
+            name="twitter:description"
             content="Blog sur mon évolution en tant que Tracking spécialist chez 55"
-            key="ogdesc"
+          />
+          <meta
+            name="twitter:image"
+            content="https://res.cloudinary.com/juniorwembopa243/image/upload/v1661453244/justin-morgan-_Lnid7JAWFQ-unsplash_uffixe.jpg"
           />
 
           {/* 
