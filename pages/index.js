@@ -54,7 +54,7 @@ export default function Home({ postsResponse }) {
           <meta name="twitter:card" content="summary" key="twcard" />
           <meta
             name="description"
-            content="nekrjbekjrbvlekjrbvlekjbvlkejbrvlikejbvilerkbjvlekrbverkb"
+            content="nekrjbekjrbvlekjrbvlekjbvlkejbrvlikejbvilerkbjvlekrb"
           />
 
           {/* Open Graph */}
