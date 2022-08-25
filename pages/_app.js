@@ -6,6 +6,8 @@ import { ThemeProvider } from "next-themes";
 import { Global } from "../Context/context";
 
 function MyApp({ Component, pageProps }) {
+  const logoUrl =
+    "https://res.cloudinary.com/juniorwembopa243/image/upload/v1660688448/ga4_igliir.jpg";
   return (
     <div className="md:p-2">
       <Head>
